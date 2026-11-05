@@ -1,0 +1,2 @@
+import{i as e}from"./rolldown-runtime.js";import{n as t,t as n}from"./compiler-runtime.js";var r=n(),i=e(t(),1);function a(e){let t=(0,r.c)(2),n=(0,i.useRef)(e),a;return t[0]===e?a=t[1]:(a=()=>{n.current=e},t[0]=e,t[1]=a),(0,i.useLayoutEffect)(a),n}export{a as t};
+//# sourceMappingURL=useLatestRef.js.map
