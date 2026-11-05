@@ -17,6 +17,24 @@
       "params": {}
     }
   },
+  "sol/open_followup/judge_reply_7_resampled.eval": {
+    "eval_id": "AfmtW9qyFFSbFvhCHFiLVa",
+    "run_id": "sol_open_followup_judge_reply_7_resampled",
+    "task": "Sol open: judge_reply/7 resampled 10 times",
+    "task_id": "sol_open_followup_judge_reply_7_resampled",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:01:37+00:00",
+    "completed_at": "2026-11-05T16:01:37+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
   "qwen/pilots/smoke_invalid.eval": {
     "eval_id": "PMiPUSZDVuJTKNJhnRKRZ5",
     "run_id": "qwen_pilots_smoke_invalid",
@@ -161,24 +179,6 @@
       "params": {}
     }
   },
-  "sol/open_followup/judge_sees_solution_and_reply.eval": {
-    "eval_id": "Ej7DzeweHkV9PdhtFh3TXW",
-    "run_id": "sol_open_followup_judge_sees_solution_and_reply",
-    "task": "Sol open: judge sees solution and reply",
-    "task_id": "sol_open_followup_judge_sees_solution_and_reply",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-04T23:12:46+00:00",
-    "completed_at": "2026-11-04T23:12:46+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.9,
-      "params": {}
-    }
-  },
   "sol/open_followup/exact_yes_required.eval": {
     "eval_id": "cM9QHXdypcbHA8qpN5H255",
     "run_id": "sol_open_followup_exact_yes_required",
@@ -194,6 +194,24 @@
     "primary_metric": {
       "name": "share",
       "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/open_followup/judge_sees_solution_and_reply.eval": {
+    "eval_id": "Ej7DzeweHkV9PdhtFh3TXW",
+    "run_id": "sol_open_followup_judge_sees_solution_and_reply",
+    "task": "Sol open: judge sees solution and reply",
+    "task_id": "sol_open_followup_judge_sees_solution_and_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-04T23:12:46+00:00",
+    "completed_at": "2026-11-04T23:12:46+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.9,
       "params": {}
     }
   },
