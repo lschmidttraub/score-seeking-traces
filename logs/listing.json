@@ -1,197 +1,290 @@
 {
-  "qwen/pilots/2026-11-04T16-26-43_qwen_smoke_invalid_3f224d1a.eval": {
-    "eval_id": "gnnirZdo97HXhUVAYxYxrA",
-    "run_id": "qwen_smoke_invalid",
-    "task": "qwen_smoke_invalid",
-    "task_id": "qwen_smoke_invalid",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-27B",
-    "started_at": "2026-11-04T16:26:43+00:00",
-    "completed_at": "2026-11-04T16:26:43+00:00"
-  },
-  "qwen/pilots/2026-11-04T20-11-52_qwen_pilot_2_66521bdb.eval": {
-    "eval_id": "3DaFhjdrSfTrUrtAKDfn4e",
-    "run_id": "qwen_pilot_2",
-    "task": "qwen_pilot_2",
-    "task_id": "qwen_pilot_2",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-27B",
-    "started_at": "2026-11-04T20:11:52+00:00",
-    "completed_at": "2026-11-04T20:11:52+00:00"
-  },
-  "qwen/pilots/2026-11-04T17-23-02_qwen_pilot_1_ff5b4a61.eval": {
-    "eval_id": "baKpncL9jzqk7mMgTpkbe2",
-    "run_id": "qwen_pilot_1",
-    "task": "qwen_pilot_1",
-    "task_id": "qwen_pilot_1",
+  "qwen/pilots/pilot_1.eval": {
+    "eval_id": "D6Uo6TowaWA5kR9Q4X4Nvu",
+    "run_id": "qwen_pilots_pilot_1",
+    "task": "Qwen pilot 1",
+    "task_id": "qwen_pilots_pilot_1",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "qwen/Qwen3.8-27B",
     "started_at": "2026-11-04T17:23:02+00:00",
-    "completed_at": "2026-11-04T17:23:02+00:00"
+    "completed_at": "2026-11-04T17:23:02+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.1111111111111111,
+      "params": {}
+    }
   },
-  "qwen/pilots/2026-11-04T20-21-05_qwen_prefix_pool_734b8c27.eval": {
-    "eval_id": "aeLHQfYXM9qzAwAM5pKCR8",
-    "run_id": "qwen_prefix_pool",
-    "task": "qwen_prefix_pool",
-    "task_id": "qwen_prefix_pool",
+  "qwen/pilots/smoke_invalid.eval": {
+    "eval_id": "5dVP7aEtNjWsuGeJbdvH5Z",
+    "run_id": "qwen_pilots_smoke_invalid",
+    "task": "Qwen smoke test (invalid)",
+    "task_id": "qwen_pilots_smoke_invalid",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-04T16:26:43+00:00",
+    "completed_at": "2026-11-04T16:26:43+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/pilots/pilot_2.eval": {
+    "eval_id": "j7MaDYyQ8QkVq6deVR4iH3",
+    "run_id": "qwen_pilots_pilot_2",
+    "task": "Qwen pilot 2",
+    "task_id": "qwen_pilots_pilot_2",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-04T20:11:52+00:00",
+    "completed_at": "2026-11-04T20:11:52+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.5833333333333334,
+      "params": {}
+    }
+  },
+  "qwen/pilots/prefix_pool.eval": {
+    "eval_id": "hcWRd5isjNghs8CH3LUe3a",
+    "run_id": "qwen_pilots_prefix_pool",
+    "task": "Qwen pilot: replay prefixes",
+    "task_id": "qwen_pilots_prefix_pool",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "qwen/Qwen3.8-27B",
     "started_at": "2026-11-04T20:21:05+00:00",
-    "completed_at": "2026-11-04T20:21:05+00:00"
+    "completed_at": "2026-11-04T20:21:05+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.22916666666666666,
+      "params": {}
+    }
   },
-  "qwen/2026-11-05T06-22-00_qwen_dose_maze_translation_5682fd4b.eval": {
-    "eval_id": "cKsVe9nZ2HQy9kBjCYNZQV",
-    "run_id": "qwen_dose_maze_translation",
-    "task": "qwen_dose_maze_translation",
-    "task_id": "qwen_dose_maze_translation",
+  "qwen/dose_sweeps/translation.eval": {
+    "eval_id": "Y2mLNaPVE7PUfFw9SGwNqP",
+    "run_id": "qwen_dose_sweeps_translation",
+    "task": "Qwen dose sweep: Translation",
+    "task_id": "qwen_dose_sweeps_translation",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "qwen/Qwen3.8-27B",
-    "started_at": "2026-11-05T06:22:00+00:00",
-    "completed_at": "2026-11-05T06:22:00+00:00"
+    "started_at": "2026-11-05T06:39:39+00:00",
+    "completed_at": "2026-11-05T06:39:39+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.08653846153846154,
+      "params": {}
+    }
   },
-  "qwen/2026-11-05T06-22-46_qwen_dose_titanic_e54a2812.eval": {
-    "eval_id": "4weT6XmJ7cL9uyZBaLtG4g",
-    "run_id": "qwen_dose_titanic",
-    "task": "qwen_dose_titanic",
-    "task_id": "qwen_dose_titanic",
+  "qwen/dose_sweeps/maze.eval": {
+    "eval_id": "9gNofAhMcAY57emEBJ9fEH",
+    "run_id": "qwen_dose_sweeps_maze",
+    "task": "Qwen dose sweep: Maze",
+    "task_id": "qwen_dose_sweeps_maze",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "qwen/Qwen3.8-27B",
-    "started_at": "2026-11-05T06:22:46+00:00",
-    "completed_at": "2026-11-05T06:22:46+00:00"
+    "started_at": "2026-11-05T06:39:39+00:00",
+    "completed_at": "2026-11-05T06:39:39+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0891089108910891,
+      "params": {}
+    }
   },
-  "sol/resamples/2026-11-04T23-12-46_sol_open_judge_solution_0f8cbf5c.eval": {
-    "eval_id": "HYJPizYtEEC2jVamc2jxRt",
-    "run_id": "sol_open_judge_solution",
-    "task": "sol_open_judge_solution",
-    "task_id": "sol_open_judge_solution",
+  "qwen/dose_sweeps/titanic.eval": {
+    "eval_id": "U4cheKXLGsXqXbZSWPmBgZ",
+    "run_id": "qwen_dose_sweeps_titanic",
+    "task": "Qwen dose sweep: Titanic",
+    "task_id": "qwen_dose_sweeps_titanic",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-05T06:40:22+00:00",
+    "completed_at": "2026-11-05T06:40:22+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.9657534246575342,
+      "params": {}
+    }
+  },
+  "sol/open_followup/judge_sees_solution_and_reply.eval": {
+    "eval_id": "fC2PzEaZfmQ6dKNSb297Hk",
+    "run_id": "sol_open_followup_judge_sees_solution_and_reply",
+    "task": "Sol open: judge sees solution and reply",
+    "task_id": "sol_open_followup_judge_sees_solution_and_reply",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/gpt-5.6-sol",
     "started_at": "2026-11-04T23:12:46+00:00",
-    "completed_at": "2026-11-04T23:12:46+00:00"
+    "completed_at": "2026-11-04T23:12:46+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.9,
+      "params": {}
+    }
   },
-  "sol/2026-11-04T23-10-32_sol_judge_solution_7e5e6294.eval": {
-    "eval_id": "SViv5L2vWDwYkmajkMo8ZU",
-    "run_id": "sol_judge_solution",
-    "task": "sol_judge_solution",
-    "task_id": "sol_judge_solution",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-04T23:10:32+00:00",
-    "completed_at": "2026-11-04T23:10:32+00:00"
-  },
-  "sol/resamples/2026-11-04T22-40-36_sol_open_exact_yes_f06b66cf.eval": {
-    "eval_id": "UJp8GTj3ZZJRbRFRPFZazA",
-    "run_id": "sol_open_exact_yes",
-    "task": "sol_open_exact_yes",
-    "task_id": "sol_open_exact_yes",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-04T22:40:36+00:00",
-    "completed_at": "2026-11-04T22:40:36+00:00"
-  },
-  "sol/resamples/2026-11-04T23-12-45_sol_open_no_mention_cad6c524.eval": {
-    "eval_id": "E7rN3nUhrooEjDqB2MetFp",
-    "run_id": "sol_open_no_mention",
-    "task": "sol_open_no_mention",
-    "task_id": "sol_open_no_mention",
+  "sol/open_followup/no_mention.eval": {
+    "eval_id": "GtymmsooLw6UVENjh4gz2w",
+    "run_id": "sol_open_followup_no_mention",
+    "task": "Sol open: grader does not mention the follow-up",
+    "task_id": "sol_open_followup_no_mention",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/gpt-5.6-sol",
     "started_at": "2026-11-04T23:12:45+00:00",
-    "completed_at": "2026-11-04T23:12:45+00:00"
+    "completed_at": "2026-11-04T23:12:45+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
   },
-  "sol/2026-11-05T06-13-36_sol_judge_reply_a67b3fc2.eval": {
-    "eval_id": "X5hPKmh5oHP9ALRb4SVDai",
-    "run_id": "sol_judge_reply",
-    "task": "sol_judge_reply",
-    "task_id": "sol_judge_reply",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T06:13:36+00:00",
-    "completed_at": "2026-11-05T06:13:36+00:00"
-  },
-  "sol/2026-11-05T06-10-16_sol_confirm_08453503.eval": {
-    "eval_id": "NQU89Q3erb5ZdDNbHvLSSP",
-    "run_id": "sol_confirm",
-    "task": "sol_confirm",
-    "task_id": "sol_confirm",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T06:10:16+00:00",
-    "completed_at": "2026-11-05T06:10:16+00:00"
-  },
-  "sol/2026-11-04T23-02-36_sol_no_mention_17b4f536.eval": {
-    "eval_id": "i684tcXEUvMHw7UEwr9Hth",
-    "run_id": "sol_no_mention",
-    "task": "sol_no_mention",
-    "task_id": "sol_no_mention",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-04T23:02:36+00:00",
-    "completed_at": "2026-11-04T23:02:36+00:00"
-  },
-  "sol/2026-11-04T22-44-59_sol_exact_yes_9f27bda0.eval": {
-    "eval_id": "HyJV9vzRnuNAQSYmrHQo9o",
-    "run_id": "sol_exact_yes",
-    "task": "sol_exact_yes",
-    "task_id": "sol_exact_yes",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-04T22:44:59+00:00",
-    "completed_at": "2026-11-04T22:44:59+00:00"
-  },
-  "sol/2026-11-04T22-32-47_sol_pilot_dc1e6d55.eval": {
-    "eval_id": "TpP8UY2FBtEzjWMUYK5piz",
-    "run_id": "sol_pilot",
-    "task": "sol_pilot",
-    "task_id": "sol_pilot",
+  "sol/pilot/pilot.eval": {
+    "eval_id": "EVHLp5r8fRp4PntUQcAEyG",
+    "run_id": "sol_pilot_pilot",
+    "task": "Sol pilot: fresh runs with the exact-Yes grader",
+    "task_id": "sol_pilot_pilot",
     "task_version": 0,
     "version": 2,
     "status": "success",
     "invalidated": false,
     "model": "openai/gpt-5.6-sol",
     "started_at": "2026-11-04T22:32:47+00:00",
-    "completed_at": "2026-11-04T22:32:47+00:00"
+    "completed_at": "2026-11-04T22:32:47+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.2631578947368421,
+      "params": {}
+    }
+  },
+  "sol/open_followup/exact_yes_required.eval": {
+    "eval_id": "kQ38Q5nZCmk8hdAehuzU6w",
+    "run_id": "sol_open_followup_exact_yes_required",
+    "task": "Sol open: exact Yes required",
+    "task_id": "sol_open_followup_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-04T22:40:36+00:00",
+    "completed_at": "2026-11-04T22:40:36+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/one_word_followup/5_exact_yes_required.eval": {
+    "eval_id": "G83QgzTbg6hsVpHheVs77A",
+    "run_id": "sol_one_word_followup_5_exact_yes_required",
+    "task": "Sol one-word: exact Yes required",
+    "task_id": "sol_one_word_followup_5_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-04T22:44:59+00:00",
+    "completed_at": "2026-11-04T22:44:59+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/one_word_followup/4_judge_sees_solution_and_reply.eval": {
+    "eval_id": "nMA2FpkqMqy6yPguwSKzV9",
+    "run_id": "sol_one_word_followup_4_judge_sees_solution_and_reply",
+    "task": "Sol one-word: judge sees solution and reply",
+    "task_id": "sol_one_word_followup_4_judge_sees_solution_and_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-04T23:10:32+00:00",
+    "completed_at": "2026-11-04T23:10:32+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.98,
+      "params": {}
+    }
+  },
+  "sol/one_word_followup/3_judge_sees_reply.eval": {
+    "eval_id": "ProQEHdNMzzPy4K8SAyskx",
+    "run_id": "sol_one_word_followup_3_judge_sees_reply",
+    "task": "Sol one-word: judge sees the reply",
+    "task_id": "sol_one_word_followup_3_judge_sees_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T06:13:36+00:00",
+    "completed_at": "2026-11-05T06:13:36+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.99,
+      "params": {}
+    }
+  },
+  "sol/one_word_followup/2_score_depends_on_confirming.eval": {
+    "eval_id": "EoKPRXoRnfi8DA8bLBf7Z5",
+    "run_id": "sol_one_word_followup_2_score_depends_on_confirming",
+    "task": "Sol one-word: score depends on confirming",
+    "task_id": "sol_one_word_followup_2_score_depends_on_confirming",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T06:10:16+00:00",
+    "completed_at": "2026-11-05T06:10:16+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/one_word_followup/1_no_mention.eval": {
+    "eval_id": "3x7Gpng4Ukuz27YXUofPpY",
+    "run_id": "sol_one_word_followup_1_no_mention",
+    "task": "Sol one-word: grader does not mention the follow-up",
+    "task_id": "sol_one_word_followup_1_no_mention",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-04T23:02:36+00:00",
+    "completed_at": "2026-11-04T23:02:36+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
   }
 }
