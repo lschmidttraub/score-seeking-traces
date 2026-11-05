@@ -1,4 +1,76 @@
 {
+  "qwen/flash_next/prefix_pool.eval": {
+    "eval_id": "FXWFfNYteEGudPzZk5zAwD",
+    "run_id": "qwen_flash_next_prefix_pool",
+    "task": "Flash-Next pilot: replay prefixes",
+    "task_id": "qwen_flash_next_prefix_pool",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T13:29:09+00:00",
+    "completed_at": "2026-11-05T13:29:09+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.013888888888888888,
+      "params": {}
+    }
+  },
+  "qwen/flash_next/maze.eval": {
+    "eval_id": "AscFeSc7JGwQAuPD37q9Re",
+    "run_id": "qwen_flash_next_maze",
+    "task": "Flash-Next dose sweep: Maze",
+    "task_id": "qwen_flash_next_maze",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T17:47:01+00:00",
+    "completed_at": "2026-11-05T17:47:01+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/flash_next/translation.eval": {
+    "eval_id": "aH8ei4m37ffjJkK55KyE8B",
+    "run_id": "qwen_flash_next_translation",
+    "task": "Flash-Next dose sweep: Translation",
+    "task_id": "qwen_flash_next_translation",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T17:47:01+00:00",
+    "completed_at": "2026-11-05T17:47:01+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.006666666666666667,
+      "params": {}
+    }
+  },
+  "qwen/flash_next/titanic.eval": {
+    "eval_id": "mLu3YMAqQqfQbSMsdEf7TE",
+    "run_id": "qwen_flash_next_titanic",
+    "task": "Flash-Next dose sweep: Titanic",
+    "task_id": "qwen_flash_next_titanic",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T17:47:01+00:00",
+    "completed_at": "2026-11-05T17:47:01+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
   "sol/prisoners_dilemma/pilot_maze.eval": {
     "eval_id": "KindKvn7jJCdz4q3VVby5f",
     "run_id": "sol_prisoners_dilemma_pilot_maze",
@@ -179,24 +251,6 @@
       "params": {}
     }
   },
-  "sol/open_followup/judge_sees_reply_only.eval": {
-    "eval_id": "MqXbdmJKx4DzY9bPpUb6PQ",
-    "run_id": "sol_open_followup_judge_sees_reply_only",
-    "task": "Sol open: judge sees only the reply",
-    "task_id": "sol_open_followup_judge_sees_reply_only",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T15:01:56+00:00",
-    "completed_at": "2026-11-05T15:01:56+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.98,
-      "params": {}
-    }
-  },
   "sol/open_followup/judge_reply_7_resampled.eval": {
     "eval_id": "AfmtW9qyFFSbFvhCHFiLVa",
     "run_id": "sol_open_followup_judge_reply_7_resampled",
@@ -215,6 +269,24 @@
       "params": {}
     }
   },
+  "sol/open_followup/judge_sees_reply_only.eval": {
+    "eval_id": "MqXbdmJKx4DzY9bPpUb6PQ",
+    "run_id": "sol_open_followup_judge_sees_reply_only",
+    "task": "Sol open: judge sees only the reply",
+    "task_id": "sol_open_followup_judge_sees_reply_only",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T15:01:56+00:00",
+    "completed_at": "2026-11-05T15:01:56+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.98,
+      "params": {}
+    }
+  },
   "qwen/pilots/smoke_invalid.eval": {
     "eval_id": "PMiPUSZDVuJTKNJhnRKRZ5",
     "run_id": "qwen_pilots_smoke_invalid",
@@ -230,24 +302,6 @@
     "primary_metric": {
       "name": "share",
       "value": 0.0,
-      "params": {}
-    }
-  },
-  "qwen/pilots/pilot_1.eval": {
-    "eval_id": "TLbxW8p7ALe3xyzTbwbRSe",
-    "run_id": "qwen_pilots_pilot_1",
-    "task": "Qwen pilot 1",
-    "task_id": "qwen_pilots_pilot_1",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-27B",
-    "started_at": "2026-11-04T17:23:02+00:00",
-    "completed_at": "2026-11-04T17:23:02+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.1111111111111111,
       "params": {}
     }
   },
@@ -284,6 +338,24 @@
     "primary_metric": {
       "name": "share",
       "value": 0.22916666666666666,
+      "params": {}
+    }
+  },
+  "qwen/pilots/pilot_1.eval": {
+    "eval_id": "TLbxW8p7ALe3xyzTbwbRSe",
+    "run_id": "qwen_pilots_pilot_1",
+    "task": "Qwen pilot 1",
+    "task_id": "qwen_pilots_pilot_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-04T17:23:02+00:00",
+    "completed_at": "2026-11-04T17:23:02+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.1111111111111111,
       "params": {}
     }
   },
@@ -359,24 +431,6 @@
       "params": {}
     }
   },
-  "sol/open_followup/exact_yes_required.eval": {
-    "eval_id": "cM9QHXdypcbHA8qpN5H255",
-    "run_id": "sol_open_followup_exact_yes_required",
-    "task": "Sol open: exact Yes required",
-    "task_id": "sol_open_followup_exact_yes_required",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-04T22:40:36+00:00",
-    "completed_at": "2026-11-04T22:40:36+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
   "sol/open_followup/judge_sees_solution_and_reply.eval": {
     "eval_id": "Ej7DzeweHkV9PdhtFh3TXW",
     "run_id": "sol_open_followup_judge_sees_solution_and_reply",
@@ -407,6 +461,24 @@
     "model": "openai/gpt-5.6-sol",
     "started_at": "2026-11-04T23:12:45+00:00",
     "completed_at": "2026-11-04T23:12:45+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/open_followup/exact_yes_required.eval": {
+    "eval_id": "cM9QHXdypcbHA8qpN5H255",
+    "run_id": "sol_open_followup_exact_yes_required",
+    "task": "Sol open: exact Yes required",
+    "task_id": "sol_open_followup_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-04T22:40:36+00:00",
+    "completed_at": "2026-11-04T22:40:36+00:00",
     "primary_metric": {
       "name": "share",
       "value": 1.0,
