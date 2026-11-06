@@ -1,366 +1,6 @@
 {
-  "sol/prisoners_dilemma/c_0_99.eval": {
-    "eval_id": "gwxLVvzToAtCD6e48JDE6X",
-    "run_id": "sol_prisoners_dilemma_c_0_99",
-    "task": "Sol dilemma: c = 0.99",
-    "task_id": "sol_prisoners_dilemma_c_0_99",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T19:57:09+00:00",
-    "completed_at": "2026-11-05T19:57:09+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/open_followup/confession_judge.eval": {
-    "eval_id": "UkBjQ5yjCd9jxdG3yC37pT",
-    "run_id": "sol_open_followup_confession_judge",
-    "task": "Sol open: confession judge",
-    "task_id": "sol_open_followup_confession_judge",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T19:51:20+00:00",
-    "completed_at": "2026-11-05T19:51:20+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/c_0_8.eval": {
-    "eval_id": "4R6M4PXeZpFzcvENuNj4y5",
-    "run_id": "sol_prisoners_dilemma_c_0_8",
-    "task": "Sol dilemma: c = 0.8",
-    "task_id": "sol_prisoners_dilemma_c_0_8",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T18:18:19+00:00",
-    "completed_at": "2026-11-05T18:18:19+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/c_0_9.eval": {
-    "eval_id": "HJUMHWHRPJwiT7HSdZ4imY",
-    "run_id": "sol_prisoners_dilemma_c_0_9",
-    "task": "Sol dilemma: c = 0.9",
-    "task_id": "sol_prisoners_dilemma_c_0_9",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T18:18:16+00:00",
-    "completed_at": "2026-11-05T18:18:16+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "qwen/flash_next/prefix_pool.eval": {
-    "eval_id": "FXWFfNYteEGudPzZk5zAwD",
-    "run_id": "qwen_flash_next_prefix_pool",
-    "task": "Flash-Next pilot: replay prefixes",
-    "task_id": "qwen_flash_next_prefix_pool",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-Flash-Next-FP8",
-    "started_at": "2026-11-05T13:29:09+00:00",
-    "completed_at": "2026-11-05T13:29:09+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.013888888888888888,
-      "params": {}
-    }
-  },
-  "qwen/flash_next/translation.eval": {
-    "eval_id": "aH8ei4m37ffjJkK55KyE8B",
-    "run_id": "qwen_flash_next_translation",
-    "task": "Flash-Next dose sweep: Translation",
-    "task_id": "qwen_flash_next_translation",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-Flash-Next-FP8",
-    "started_at": "2026-11-05T17:47:01+00:00",
-    "completed_at": "2026-11-05T17:47:01+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.006666666666666667,
-      "params": {}
-    }
-  },
-  "qwen/flash_next/maze.eval": {
-    "eval_id": "AscFeSc7JGwQAuPD37q9Re",
-    "run_id": "qwen_flash_next_maze",
-    "task": "Flash-Next dose sweep: Maze",
-    "task_id": "qwen_flash_next_maze",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-Flash-Next-FP8",
-    "started_at": "2026-11-05T17:47:01+00:00",
-    "completed_at": "2026-11-05T17:47:01+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "qwen/flash_next/titanic.eval": {
-    "eval_id": "mLu3YMAqQqfQbSMsdEf7TE",
-    "run_id": "qwen_flash_next_titanic",
-    "task": "Flash-Next dose sweep: Titanic",
-    "task_id": "qwen_flash_next_titanic",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-Flash-Next-FP8",
-    "started_at": "2026-11-05T17:47:01+00:00",
-    "completed_at": "2026-11-05T17:47:01+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/pilot_maze.eval": {
-    "eval_id": "KindKvn7jJCdz4q3VVby5f",
-    "run_id": "sol_prisoners_dilemma_pilot_maze",
-    "task": "Sol dilemma pilot: maze, c = 1 (stopped)",
-    "task_id": "sol_prisoners_dilemma_pilot_maze",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T06:53:41+00:00",
-    "completed_at": "2026-11-05T06:53:41+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/pilot_titanic.eval": {
-    "eval_id": "2LuJsSDDPnueLBrAUoqgNZ",
-    "run_id": "sol_prisoners_dilemma_pilot_titanic",
-    "task": "Sol dilemma pilot: Titanic, c = 1",
-    "task_id": "sol_prisoners_dilemma_pilot_titanic",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T15:35:27+00:00",
-    "completed_at": "2026-11-05T15:35:27+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/old_grader/c_minus_1.eval": {
-    "eval_id": "2SYzEarGcUTA8d4tF2Bf2Z",
-    "run_id": "sol_prisoners_dilemma_old_grader_c_minus_1",
-    "task": "Sol dilemma, old grader: c = -1",
-    "task_id": "sol_prisoners_dilemma_old_grader_c_minus_1",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:22:23+00:00",
-    "completed_at": "2026-11-05T16:22:23+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/old_grader/c_0.eval": {
-    "eval_id": "dg67v8yjM3Dc4yAfNGHXxn",
-    "run_id": "sol_prisoners_dilemma_old_grader_c_0",
-    "task": "Sol dilemma, old grader: c = 0",
-    "task_id": "sol_prisoners_dilemma_old_grader_c_0",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:22:21+00:00",
-    "completed_at": "2026-11-05T16:22:21+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/old_grader/c_0_5.eval": {
-    "eval_id": "c4ahGJ4Hf5wyStfZx8zT33",
-    "run_id": "sol_prisoners_dilemma_old_grader_c_0_5",
-    "task": "Sol dilemma, old grader: c = 0.5",
-    "task_id": "sol_prisoners_dilemma_old_grader_c_0_5",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:22:02+00:00",
-    "completed_at": "2026-11-05T16:22:02+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/old_grader/c_1.eval": {
-    "eval_id": "NGFsz4KH9ZeDyvEwQMCcBJ",
-    "run_id": "sol_prisoners_dilemma_old_grader_c_1",
-    "task": "Sol dilemma, old grader: c = 1",
-    "task_id": "sol_prisoners_dilemma_old_grader_c_1",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:22:21+00:00",
-    "completed_at": "2026-11-05T16:22:21+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.038461538461538464,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/c_minus_1.eval": {
-    "eval_id": "79q7a5z44m7wdPbFcCrcSh",
-    "run_id": "sol_prisoners_dilemma_c_minus_1",
-    "task": "Sol dilemma: c = -1",
-    "task_id": "sol_prisoners_dilemma_c_minus_1",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T17:31:54+00:00",
-    "completed_at": "2026-11-05T17:31:54+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/c_0.eval": {
-    "eval_id": "VECXUVoWY92s7ri6kfJJBs",
-    "run_id": "sol_prisoners_dilemma_c_0",
-    "task": "Sol dilemma: c = 0",
-    "task_id": "sol_prisoners_dilemma_c_0",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T17:32:13+00:00",
-    "completed_at": "2026-11-05T17:32:13+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/c_0_5.eval": {
-    "eval_id": "TAPuZTL5UhivB4jS9sjQht",
-    "run_id": "sol_prisoners_dilemma_c_0_5",
-    "task": "Sol dilemma: c = 0.5",
-    "task_id": "sol_prisoners_dilemma_c_0_5",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T17:30:30+00:00",
-    "completed_at": "2026-11-05T17:30:30+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "sol/prisoners_dilemma/c_1.eval": {
-    "eval_id": "MmHB43wQRXwEmA8njkUkpT",
-    "run_id": "sol_prisoners_dilemma_c_1",
-    "task": "Sol dilemma: c = 1",
-    "task_id": "sol_prisoners_dilemma_c_1",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T17:32:12+00:00",
-    "completed_at": "2026-11-05T17:32:12+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.08,
-      "params": {}
-    }
-  },
-  "sol/open_followup/judge_reply_7_resampled.eval": {
-    "eval_id": "AfmtW9qyFFSbFvhCHFiLVa",
-    "run_id": "sol_open_followup_judge_reply_7_resampled",
-    "task": "Sol open: judge_reply/7 resampled 10 times",
-    "task_id": "sol_open_followup_judge_reply_7_resampled",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:01:37+00:00",
-    "completed_at": "2026-11-05T16:01:37+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
-  "sol/open_followup/judge_sees_reply_only.eval": {
-    "eval_id": "MqXbdmJKx4DzY9bPpUb6PQ",
-    "run_id": "sol_open_followup_judge_sees_reply_only",
-    "task": "Sol open: judge sees only the reply",
-    "task_id": "sol_open_followup_judge_sees_reply_only",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T15:01:56+00:00",
-    "completed_at": "2026-11-05T15:01:56+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.98,
-      "params": {}
-    }
-  },
   "qwen/pilots/smoke_invalid.eval": {
-    "eval_id": "PMiPUSZDVuJTKNJhnRKRZ5",
+    "eval_id": "iTrKCKK5dbn6dhDB9oFe3y",
     "run_id": "qwen_pilots_smoke_invalid",
     "task": "Qwen smoke test (invalid)",
     "task_id": "qwen_pilots_smoke_invalid",
@@ -378,7 +18,7 @@
     }
   },
   "qwen/pilots/pilot_2.eval": {
-    "eval_id": "j9pTf2NDgU9xu4PrTafpNV",
+    "eval_id": "Z6vzDgYSAK9qhBPJ7mcp3n",
     "run_id": "qwen_pilots_pilot_2",
     "task": "Qwen pilot 2",
     "task_id": "qwen_pilots_pilot_2",
@@ -396,7 +36,7 @@
     }
   },
   "qwen/pilots/pilot_1.eval": {
-    "eval_id": "TLbxW8p7ALe3xyzTbwbRSe",
+    "eval_id": "KG4CgwKNNdhaMqV5tipQnf",
     "run_id": "qwen_pilots_pilot_1",
     "task": "Qwen pilot 1",
     "task_id": "qwen_pilots_pilot_1",
@@ -413,8 +53,80 @@
       "params": {}
     }
   },
+  "qwen/flash_next/prefix_pool.eval": {
+    "eval_id": "ZN7B3LGx49eLCkgGxhDbxp",
+    "run_id": "qwen_flash_next_prefix_pool",
+    "task": "Flash-Next pilot: replay prefixes",
+    "task_id": "qwen_flash_next_prefix_pool",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T13:29:09+00:00",
+    "completed_at": "2026-11-05T13:29:09+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.013888888888888888,
+      "params": {}
+    }
+  },
+  "qwen/flash_next/translation.eval": {
+    "eval_id": "brnAf2jWCFGQxc6EpFf53G",
+    "run_id": "qwen_flash_next_translation",
+    "task": "Flash-Next dose sweep: Translation",
+    "task_id": "qwen_flash_next_translation",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T17:47:01+00:00",
+    "completed_at": "2026-11-05T17:47:01+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.006666666666666667,
+      "params": {}
+    }
+  },
+  "qwen/flash_next/maze.eval": {
+    "eval_id": "c5yDuyfJ4pSWv4BuhHUNr8",
+    "run_id": "qwen_flash_next_maze",
+    "task": "Flash-Next dose sweep: Maze",
+    "task_id": "qwen_flash_next_maze",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T17:47:01+00:00",
+    "completed_at": "2026-11-05T17:47:01+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/flash_next/titanic.eval": {
+    "eval_id": "6vL63bNSvXi7Y9hjkppRzT",
+    "run_id": "qwen_flash_next_titanic",
+    "task": "Flash-Next dose sweep: Titanic",
+    "task_id": "qwen_flash_next_titanic",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T17:47:01+00:00",
+    "completed_at": "2026-11-05T17:47:01+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
   "qwen/pilots/prefix_pool.eval": {
-    "eval_id": "ZLZLFACc94ZBzcixERPLwg",
+    "eval_id": "82WCU49VZqRnihtTVHNngQ",
     "run_id": "qwen_pilots_prefix_pool",
     "task": "Qwen pilot: replay prefixes",
     "task_id": "qwen_pilots_prefix_pool",
@@ -432,7 +144,7 @@
     }
   },
   "qwen/dose_sweeps/translation.eval": {
-    "eval_id": "nxAwrfi75CChkfRpw4cSb3",
+    "eval_id": "A6drhNnUJGKDhnFKYf2WRa",
     "run_id": "qwen_dose_sweeps_translation",
     "task": "Qwen dose sweep: Translation",
     "task_id": "qwen_dose_sweeps_translation",
@@ -450,7 +162,7 @@
     }
   },
   "qwen/dose_sweeps/maze.eval": {
-    "eval_id": "cK54XkH3i4Dh4Hvo67FNMR",
+    "eval_id": "5yAbo9egwU6dkZW9sBK6Jb",
     "run_id": "qwen_dose_sweeps_maze",
     "task": "Qwen dose sweep: Maze",
     "task_id": "qwen_dose_sweeps_maze",
@@ -468,7 +180,7 @@
     }
   },
   "qwen/dose_sweeps/titanic.eval": {
-    "eval_id": "m4QctxXQhw7iuyPAZmxtnv",
+    "eval_id": "XbqqdruqXQzLGBoaw2JyPT",
     "run_id": "qwen_dose_sweeps_titanic",
     "task": "Qwen dose sweep: Titanic",
     "task_id": "qwen_dose_sweeps_titanic",
@@ -485,8 +197,260 @@
       "params": {}
     }
   },
+  "sol/prisoners_dilemma/pilot_maze.eval": {
+    "eval_id": "WPh8ycahnGCniZCakZwjbH",
+    "run_id": "sol_prisoners_dilemma_pilot_maze",
+    "task": "Sol dilemma pilot: maze, c = 1 (stopped)",
+    "task_id": "sol_prisoners_dilemma_pilot_maze",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T06:53:41+00:00",
+    "completed_at": "2026-11-05T06:53:41+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/pilot_titanic.eval": {
+    "eval_id": "2YZcxFLMUDtf293mh5WEyy",
+    "run_id": "sol_prisoners_dilemma_pilot_titanic",
+    "task": "Sol dilemma pilot: Titanic, c = 1",
+    "task_id": "sol_prisoners_dilemma_pilot_titanic",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T15:35:27+00:00",
+    "completed_at": "2026-11-05T15:35:27+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/old_grader/c_minus_1.eval": {
+    "eval_id": "iFUphNq5GoFxd3RoJVnLws",
+    "run_id": "sol_prisoners_dilemma_old_grader_c_minus_1",
+    "task": "Sol dilemma, old grader: c = -1",
+    "task_id": "sol_prisoners_dilemma_old_grader_c_minus_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:22:23+00:00",
+    "completed_at": "2026-11-05T16:22:23+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/old_grader/c_0.eval": {
+    "eval_id": "3o3bbCRQzyC28PjrkcfJjf",
+    "run_id": "sol_prisoners_dilemma_old_grader_c_0",
+    "task": "Sol dilemma, old grader: c = 0",
+    "task_id": "sol_prisoners_dilemma_old_grader_c_0",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:22:21+00:00",
+    "completed_at": "2026-11-05T16:22:21+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/old_grader/c_0_5.eval": {
+    "eval_id": "ChFJjc89BWv6mvFkBu2eM5",
+    "run_id": "sol_prisoners_dilemma_old_grader_c_0_5",
+    "task": "Sol dilemma, old grader: c = 0.5",
+    "task_id": "sol_prisoners_dilemma_old_grader_c_0_5",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:22:02+00:00",
+    "completed_at": "2026-11-05T16:22:02+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/old_grader/c_1.eval": {
+    "eval_id": "7vFmvMYjj9DZH48beZNCNT",
+    "run_id": "sol_prisoners_dilemma_old_grader_c_1",
+    "task": "Sol dilemma, old grader: c = 1",
+    "task_id": "sol_prisoners_dilemma_old_grader_c_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:22:21+00:00",
+    "completed_at": "2026-11-05T16:22:21+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.038461538461538464,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_minus_1.eval": {
+    "eval_id": "mHR2kbS5i58buvDm9nReJ8",
+    "run_id": "sol_prisoners_dilemma_c_minus_1",
+    "task": "Sol dilemma: c = -1",
+    "task_id": "sol_prisoners_dilemma_c_minus_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T17:31:54+00:00",
+    "completed_at": "2026-11-05T17:31:54+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_0.eval": {
+    "eval_id": "XbgrQ5nCqnQEm4fkx68c5J",
+    "run_id": "sol_prisoners_dilemma_c_0",
+    "task": "Sol dilemma: c = 0",
+    "task_id": "sol_prisoners_dilemma_c_0",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T17:32:13+00:00",
+    "completed_at": "2026-11-05T17:32:13+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_0_5.eval": {
+    "eval_id": "EYJstfV8773Wpq7otJZtrD",
+    "run_id": "sol_prisoners_dilemma_c_0_5",
+    "task": "Sol dilemma: c = 0.5",
+    "task_id": "sol_prisoners_dilemma_c_0_5",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T17:30:30+00:00",
+    "completed_at": "2026-11-05T17:30:30+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_0_8.eval": {
+    "eval_id": "6PBoiKBGGAZTwGRTWGqKfh",
+    "run_id": "sol_prisoners_dilemma_c_0_8",
+    "task": "Sol dilemma: c = 0.8",
+    "task_id": "sol_prisoners_dilemma_c_0_8",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T18:18:19+00:00",
+    "completed_at": "2026-11-05T18:18:19+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_0_9.eval": {
+    "eval_id": "dV5MWGscr8vRipDo4Amwsx",
+    "run_id": "sol_prisoners_dilemma_c_0_9",
+    "task": "Sol dilemma: c = 0.9",
+    "task_id": "sol_prisoners_dilemma_c_0_9",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T18:18:16+00:00",
+    "completed_at": "2026-11-05T18:18:16+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_1_read_only.eval": {
+    "eval_id": "PYpWrYUNS6bHnxyDvVDj6u",
+    "run_id": "sol_prisoners_dilemma_c_1_read_only",
+    "task": "Sol dilemma: c = 1, A read-only",
+    "task_id": "sol_prisoners_dilemma_c_1_read_only",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T20:44:17+00:00",
+    "completed_at": "2026-11-05T20:44:17+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_0_99.eval": {
+    "eval_id": "gzWR7utcKinF6QCmANiraQ",
+    "run_id": "sol_prisoners_dilemma_c_0_99",
+    "task": "Sol dilemma: c = 0.99",
+    "task_id": "sol_prisoners_dilemma_c_0_99",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T19:57:09+00:00",
+    "completed_at": "2026-11-05T19:57:09+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/c_1.eval": {
+    "eval_id": "ZyfrPJfgRY6DV7wR9rcNWs",
+    "run_id": "sol_prisoners_dilemma_c_1",
+    "task": "Sol dilemma: c = 1",
+    "task_id": "sol_prisoners_dilemma_c_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T17:32:12+00:00",
+    "completed_at": "2026-11-05T17:32:12+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.08,
+      "params": {}
+    }
+  },
   "sol/pilot/pilot.eval": {
-    "eval_id": "6obDtnoqEvRmuVxyg9WbSW",
+    "eval_id": "6ye6EdpyAdEnYPz456d9jj",
     "run_id": "sol_pilot_pilot",
     "task": "Sol pilot: fresh runs with the exact-Yes grader",
     "task_id": "sol_pilot_pilot",
@@ -503,8 +467,62 @@
       "params": {}
     }
   },
+  "sol/open_followup/confession_judge.eval": {
+    "eval_id": "2uhD8qUCVEoiUiKVqW9utX",
+    "run_id": "sol_open_followup_confession_judge",
+    "task": "Sol open: confession judge",
+    "task_id": "sol_open_followup_confession_judge",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T19:51:20+00:00",
+    "completed_at": "2026-11-05T19:51:20+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/open_followup/judge_reply_7_resampled.eval": {
+    "eval_id": "eCyj8YqqQ9b8k7ADf63XJs",
+    "run_id": "sol_open_followup_judge_reply_7_resampled",
+    "task": "Sol open: judge_reply/7 resampled 10 times",
+    "task_id": "sol_open_followup_judge_reply_7_resampled",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:01:37+00:00",
+    "completed_at": "2026-11-05T16:01:37+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/open_followup/judge_sees_reply_only.eval": {
+    "eval_id": "WsfGvBWPeDXku8Kn4gKzuM",
+    "run_id": "sol_open_followup_judge_sees_reply_only",
+    "task": "Sol open: judge sees only the reply",
+    "task_id": "sol_open_followup_judge_sees_reply_only",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T15:01:56+00:00",
+    "completed_at": "2026-11-05T15:01:56+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.98,
+      "params": {}
+    }
+  },
   "sol/open_followup/judge_sees_solution_and_reply.eval": {
-    "eval_id": "Ej7DzeweHkV9PdhtFh3TXW",
+    "eval_id": "jcMjab97WnUHhJouup7vi3",
     "run_id": "sol_open_followup_judge_sees_solution_and_reply",
     "task": "Sol open: judge sees solution and reply",
     "task_id": "sol_open_followup_judge_sees_solution_and_reply",
@@ -521,26 +539,8 @@
       "params": {}
     }
   },
-  "sol/open_followup/no_mention.eval": {
-    "eval_id": "YMJdtmaDgx8SKozK6G5G7q",
-    "run_id": "sol_open_followup_no_mention",
-    "task": "Sol open: grader does not mention the follow-up",
-    "task_id": "sol_open_followup_no_mention",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-04T23:12:45+00:00",
-    "completed_at": "2026-11-04T23:12:45+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
   "sol/open_followup/exact_yes_required.eval": {
-    "eval_id": "cM9QHXdypcbHA8qpN5H255",
+    "eval_id": "ZTGb93FyRwydSw7WxxABiH",
     "run_id": "sol_open_followup_exact_yes_required",
     "task": "Sol open: exact Yes required",
     "task_id": "sol_open_followup_exact_yes_required",
@@ -557,8 +557,26 @@
       "params": {}
     }
   },
+  "sol/open_followup/no_mention.eval": {
+    "eval_id": "PQCuP6owbLaRzfqwem2dm8",
+    "run_id": "sol_open_followup_no_mention",
+    "task": "Sol open: grader does not mention the follow-up",
+    "task_id": "sol_open_followup_no_mention",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-04T23:12:45+00:00",
+    "completed_at": "2026-11-04T23:12:45+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
   "sol/one_word_followup/5_exact_yes_required.eval": {
-    "eval_id": "Jd6mpChkrvEG74vrg835Yt",
+    "eval_id": "c4FfX8DCfeA8E4qoAh787D",
     "run_id": "sol_one_word_followup_5_exact_yes_required",
     "task": "Sol one-word: exact Yes required",
     "task_id": "sol_one_word_followup_5_exact_yes_required",
@@ -576,7 +594,7 @@
     }
   },
   "sol/one_word_followup/4_judge_sees_solution_and_reply.eval": {
-    "eval_id": "Vt4WCkcgYiubvqNxNxPQTS",
+    "eval_id": "UDPQ8XaqFeaYw39NPtyKwd",
     "run_id": "sol_one_word_followup_4_judge_sees_solution_and_reply",
     "task": "Sol one-word: judge sees solution and reply",
     "task_id": "sol_one_word_followup_4_judge_sees_solution_and_reply",
@@ -594,7 +612,7 @@
     }
   },
   "sol/one_word_followup/3_judge_sees_reply.eval": {
-    "eval_id": "Z9oSkEdzSPkxRPkn4T4yJq",
+    "eval_id": "W3pzTMzXGxq4qoGgFrD3N2",
     "run_id": "sol_one_word_followup_3_judge_sees_reply",
     "task": "Sol one-word: judge sees the reply",
     "task_id": "sol_one_word_followup_3_judge_sees_reply",
@@ -612,7 +630,7 @@
     }
   },
   "sol/one_word_followup/2_score_depends_on_confirming.eval": {
-    "eval_id": "iyNQ2LstsiTEL6XxHFrPWP",
+    "eval_id": "FmZ7gCDnYEarcK8PNXsmPU",
     "run_id": "sol_one_word_followup_2_score_depends_on_confirming",
     "task": "Sol one-word: score depends on confirming",
     "task_id": "sol_one_word_followup_2_score_depends_on_confirming",
@@ -630,7 +648,7 @@
     }
   },
   "sol/one_word_followup/1_no_mention.eval": {
-    "eval_id": "j3Nn9ixrzKqd3ZPtX5kfS9",
+    "eval_id": "6hsrwpW5pHvt8GVXR3Dunb",
     "run_id": "sol_one_word_followup_1_no_mention",
     "task": "Sol one-word: grader does not mention the follow-up",
     "task_id": "sol_one_word_followup_1_no_mention",
@@ -644,6 +662,564 @@
     "primary_metric": {
       "name": "share",
       "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/pilot.eval": {
+    "eval_id": "j3JXqv5jr2u8t8j4X7mdxP",
+    "run_id": "qwen_prisoners_dilemma_flash_next_pilot",
+    "task": "Flash-Next dilemma pilot: Titanic, c = 1",
+    "task_id": "qwen_prisoners_dilemma_flash_next_pilot",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-05T20:42:25+00:00",
+    "completed_at": "2026-11-05T20:42:25+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/c_minus_1.eval": {
+    "eval_id": "MbJBiWAfbynecUwHNrM4Td",
+    "run_id": "qwen_prisoners_dilemma_flash_next_c_minus_1",
+    "task": "Flash-Next dilemma: c = -1",
+    "task_id": "qwen_prisoners_dilemma_flash_next_c_minus_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:58+00:00",
+    "completed_at": "2026-11-06T10:05:58+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/c_0.eval": {
+    "eval_id": "WujhxT6WnDPgdvzqrVPHVf",
+    "run_id": "qwen_prisoners_dilemma_flash_next_c_0",
+    "task": "Flash-Next dilemma: c = 0",
+    "task_id": "qwen_prisoners_dilemma_flash_next_c_0",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:59+00:00",
+    "completed_at": "2026-11-06T10:05:59+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/c_0_5.eval": {
+    "eval_id": "kc9b4UtR8c76q3cWBP6WdW",
+    "run_id": "qwen_prisoners_dilemma_flash_next_c_0_5",
+    "task": "Flash-Next dilemma: c = 0.5",
+    "task_id": "qwen_prisoners_dilemma_flash_next_c_0_5",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:58+00:00",
+    "completed_at": "2026-11-06T10:05:58+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/c_0_8.eval": {
+    "eval_id": "cnufGejibdgyYG3Y5C8nXr",
+    "run_id": "qwen_prisoners_dilemma_flash_next_c_0_8",
+    "task": "Flash-Next dilemma: c = 0.8",
+    "task_id": "qwen_prisoners_dilemma_flash_next_c_0_8",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:59+00:00",
+    "completed_at": "2026-11-06T10:05:59+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/c_0_9.eval": {
+    "eval_id": "TQAav8vX6RyLbeo9CcLznk",
+    "run_id": "qwen_prisoners_dilemma_flash_next_c_0_9",
+    "task": "Flash-Next dilemma: c = 0.9",
+    "task_id": "qwen_prisoners_dilemma_flash_next_c_0_9",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:58+00:00",
+    "completed_at": "2026-11-06T10:05:58+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/c_0_99.eval": {
+    "eval_id": "Dg4tSn4u5Q7okpPdELLvR7",
+    "run_id": "qwen_prisoners_dilemma_flash_next_c_0_99",
+    "task": "Flash-Next dilemma: c = 0.99",
+    "task_id": "qwen_prisoners_dilemma_flash_next_c_0_99",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:06:00+00:00",
+    "completed_at": "2026-11-06T10:06:00+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/prisoners_dilemma/flash_next/c_1.eval": {
+    "eval_id": "YezxCSGGM4Umt8CX7kQp8P",
+    "run_id": "qwen_prisoners_dilemma_flash_next_c_1",
+    "task": "Flash-Next dilemma: c = 1",
+    "task_id": "qwen_prisoners_dilemma_flash_next_c_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:59+00:00",
+    "completed_at": "2026-11-06T10:05:59+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "glm/pilot.eval": {
+    "eval_id": "CwokNJ9F2hsNCBe5Hg4L2h",
+    "run_id": "glm_pilot",
+    "task": "GLM-5.3 pilot: fresh runs with the exact-Yes grader",
+    "task_id": "glm_pilot",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "z-ai/glm-5.3",
+    "started_at": "2026-11-06T05:59:38+00:00",
+    "completed_at": "2026-11-06T05:59:38+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.08333333333333333,
+      "params": {}
+    }
+  },
+  "glm/confession_judge.eval": {
+    "eval_id": "kSzU32x3ZzDtApzLskRdRC",
+    "run_id": "glm_confession_judge",
+    "task": "GLM-5.3: confession judge",
+    "task_id": "glm_confession_judge",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "z-ai/glm-5.3",
+    "started_at": "2026-11-06T09:59:18+00:00",
+    "completed_at": "2026-11-06T09:59:18+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.08,
+      "params": {}
+    }
+  },
+  "glm/exact_yes_required.eval": {
+    "eval_id": "ZB6NHWp3ZeY3P3Z7xR9jLp",
+    "run_id": "glm_exact_yes_required",
+    "task": "GLM-5.3: exact Yes required",
+    "task_id": "glm_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "z-ai/glm-5.3",
+    "started_at": "2026-11-06T09:44:08+00:00",
+    "completed_at": "2026-11-06T09:44:08+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.26,
+      "params": {}
+    }
+  },
+  "kimi/pilot.eval": {
+    "eval_id": "P6HGsBKD5bEHUGjXwkj7Q6",
+    "run_id": "kimi_pilot",
+    "task": "Kimi K3.1 Pro pilot: fresh runs with the exact-Yes grader",
+    "task_id": "kimi_pilot",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "moonshotai/kimi-k3.1-pro",
+    "started_at": "2026-11-06T06:16:10+00:00",
+    "completed_at": "2026-11-06T06:16:10+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.2916666666666667,
+      "params": {}
+    }
+  },
+  "kimi/confession_judge.eval": {
+    "eval_id": "6qMLckrGiWAcNxY5GKxaLF",
+    "run_id": "kimi_confession_judge",
+    "task": "Kimi K3.1 Pro: confession judge",
+    "task_id": "kimi_confession_judge",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "moonshotai/kimi-k3.1-pro",
+    "started_at": "2026-11-06T06:35:10+00:00",
+    "completed_at": "2026-11-06T06:35:10+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "kimi/exact_yes_required.eval": {
+    "eval_id": "NG4B3sZFyEBBPYAaY2Jxb2",
+    "run_id": "kimi_exact_yes_required",
+    "task": "Kimi K3.1 Pro: exact Yes required",
+    "task_id": "kimi_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "moonshotai/kimi-k3.1-pro",
+    "started_at": "2026-11-06T06:36:40+00:00",
+    "completed_at": "2026-11-06T06:36:40+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/flash_next/open_resample/judge_sees_reply.eval": {
+    "eval_id": "LKT7eupoQK2PhsrjrhpJFW",
+    "run_id": "qwen_followup_flash_next_open_resample_judge_sees_reply",
+    "task": "Flash-Next open: judge sees only the reply",
+    "task_id": "qwen_followup_flash_next_open_resample_judge_sees_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T07:47:31+00:00",
+    "completed_at": "2026-11-06T07:47:31+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/open_resample/judge_sees_solution_and_reply.eval": {
+    "eval_id": "4jvvUWLuMBADq4dZnDQNVa",
+    "run_id": "qwen_followup_27b_open_resample_judge_sees_solution_and_reply",
+    "task": "Qwen3.8-27B open: judge sees solution and reply",
+    "task_id": "qwen_followup_27b_open_resample_judge_sees_solution_and_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T05:30:52+00:00",
+    "completed_at": "2026-11-06T05:30:52+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/open_resample/no_mention.eval": {
+    "eval_id": "A7XaeZQKrPUCnahUmRinsM",
+    "run_id": "qwen_followup_27b_open_resample_no_mention",
+    "task": "Qwen3.8-27B open: grader does not mention the follow-up",
+    "task_id": "qwen_followup_27b_open_resample_no_mention",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T05:35:31+00:00",
+    "completed_at": "2026-11-06T05:35:31+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/open_resample/exact_yes_required.eval": {
+    "eval_id": "DQTjaNKAmRYvMbvn7b65tL",
+    "run_id": "qwen_followup_27b_open_resample_exact_yes_required",
+    "task": "Qwen3.8-27B open: exact Yes required",
+    "task_id": "qwen_followup_27b_open_resample_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T05:30:40+00:00",
+    "completed_at": "2026-11-06T05:30:40+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/open_resample/judge_sees_reply.eval": {
+    "eval_id": "eQ6DgL6ThwuYok7Eh7HtKV",
+    "run_id": "qwen_followup_27b_open_resample_judge_sees_reply",
+    "task": "Qwen3.8-27B open: judge sees only the reply",
+    "task_id": "qwen_followup_27b_open_resample_judge_sees_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T05:55:26+00:00",
+    "completed_at": "2026-11-06T05:55:26+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.3333333333333333,
+      "params": {}
+    }
+  },
+  "qwen/followup/flash_next/confession_judge.eval": {
+    "eval_id": "B8sC3EneVGiZfDRZmJVpcy",
+    "run_id": "qwen_followup_flash_next_confession_judge",
+    "task": "Flash-Next follow-up: confession judge",
+    "task_id": "qwen_followup_flash_next_confession_judge",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:56+00:00",
+    "completed_at": "2026-11-06T10:05:56+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/flash_next/judge_sees_reply.eval": {
+    "eval_id": "HWmPpg8vrNutGFRG2NFzhh",
+    "run_id": "qwen_followup_flash_next_judge_sees_reply",
+    "task": "Flash-Next follow-up: judge sees the reply",
+    "task_id": "qwen_followup_flash_next_judge_sees_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:57+00:00",
+    "completed_at": "2026-11-06T10:05:57+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/flash_next/judge_sees_solution_and_reply.eval": {
+    "eval_id": "HTuJfZDTnngWjqKbwSGo7o",
+    "run_id": "qwen_followup_flash_next_judge_sees_solution_and_reply",
+    "task": "Flash-Next follow-up: judge sees solution and reply",
+    "task_id": "qwen_followup_flash_next_judge_sees_solution_and_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:57+00:00",
+    "completed_at": "2026-11-06T10:05:57+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/flash_next/score_depends_on_confirming.eval": {
+    "eval_id": "BZ3rViaBDjA54bxVt4N6Wz",
+    "run_id": "qwen_followup_flash_next_score_depends_on_confirming",
+    "task": "Flash-Next follow-up: score depends on confirming",
+    "task_id": "qwen_followup_flash_next_score_depends_on_confirming",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:56+00:00",
+    "completed_at": "2026-11-06T10:05:56+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/flash_next/no_mention.eval": {
+    "eval_id": "hnvHepJN3NQpLuMK9D89eM",
+    "run_id": "qwen_followup_flash_next_no_mention",
+    "task": "Flash-Next follow-up: grader does not mention the follow-up",
+    "task_id": "qwen_followup_flash_next_no_mention",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:56+00:00",
+    "completed_at": "2026-11-06T10:05:56+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/flash_next/exact_yes_required.eval": {
+    "eval_id": "bwzEMy49qV6E9DmK4uWHQz",
+    "run_id": "qwen_followup_flash_next_exact_yes_required",
+    "task": "Flash-Next follow-up: exact Yes required",
+    "task_id": "qwen_followup_flash_next_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-Flash-Next-FP8",
+    "started_at": "2026-11-06T10:05:56+00:00",
+    "completed_at": "2026-11-06T10:05:56+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/confession_judge.eval": {
+    "eval_id": "RoR755oUVY6wYnmfLCf7zE",
+    "run_id": "qwen_followup_27b_confession_judge",
+    "task": "Qwen3.8-27B follow-up: confession judge",
+    "task_id": "qwen_followup_27b_confession_judge",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T10:05:55+00:00",
+    "completed_at": "2026-11-06T10:05:55+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.82,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/judge_sees_reply.eval": {
+    "eval_id": "ePcHNweggLNP566t3DXfmy",
+    "run_id": "qwen_followup_27b_judge_sees_reply",
+    "task": "Qwen3.8-27B follow-up: judge sees the reply",
+    "task_id": "qwen_followup_27b_judge_sees_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T10:05:55+00:00",
+    "completed_at": "2026-11-06T10:05:55+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.26,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/judge_sees_solution_and_reply.eval": {
+    "eval_id": "QpSpTpSieMxsHnfQJkQrwH",
+    "run_id": "qwen_followup_27b_judge_sees_solution_and_reply",
+    "task": "Qwen3.8-27B follow-up: judge sees solution and reply",
+    "task_id": "qwen_followup_27b_judge_sees_solution_and_reply",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T10:05:56+00:00",
+    "completed_at": "2026-11-06T10:05:56+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.3,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/score_depends_on_confirming.eval": {
+    "eval_id": "6fMviXF9NhEjfF8CnXFiqw",
+    "run_id": "qwen_followup_27b_score_depends_on_confirming",
+    "task": "Qwen3.8-27B follow-up: score depends on confirming",
+    "task_id": "qwen_followup_27b_score_depends_on_confirming",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T10:05:55+00:00",
+    "completed_at": "2026-11-06T10:05:55+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.9,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/no_mention.eval": {
+    "eval_id": "cU23aXWi5iygpv7fSCDyuo",
+    "run_id": "qwen_followup_27b_no_mention",
+    "task": "Qwen3.8-27B follow-up: grader does not mention the follow-up",
+    "task_id": "qwen_followup_27b_no_mention",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T10:05:55+00:00",
+    "completed_at": "2026-11-06T10:05:55+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/exact_yes_required.eval": {
+    "eval_id": "eTbjLvUXCmWyH4aBinid3V",
+    "run_id": "qwen_followup_27b_exact_yes_required",
+    "task": "Qwen3.8-27B follow-up: exact Yes required",
+    "task_id": "qwen_followup_27b_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T10:05:55+00:00",
+    "completed_at": "2026-11-06T10:05:55+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.9,
       "params": {}
     }
   }
