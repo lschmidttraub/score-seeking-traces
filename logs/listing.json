@@ -1,4 +1,22 @@
 {
+  "nemotron/no_mention.eval": {
+    "eval_id": "dKtJkB3XgwgA3hZjRTginW",
+    "run_id": "nemotron_no_mention",
+    "task": "Nemotron 3.5 Super VL: grader does not mention the follow-up",
+    "task_id": "nemotron_no_mention",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-07T02:10:09+00:00",
+    "completed_at": "2026-11-07T02:10:09+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
   "nemotron/pilot.eval": {
     "eval_id": "NrSjc8uyFx2uDriUnRCY6V",
     "run_id": "nemotron_pilot",
@@ -305,24 +323,6 @@
       "params": {}
     }
   },
-  "sol/prisoners_dilemma/old_grader/c_0.eval": {
-    "eval_id": "3o3bbCRQzyC28PjrkcfJjf",
-    "run_id": "sol_prisoners_dilemma_old_grader_c_0",
-    "task": "Sol dilemma, old grader: c = 0",
-    "task_id": "sol_prisoners_dilemma_old_grader_c_0",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:22:21+00:00",
-    "completed_at": "2026-11-05T16:22:21+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
   "sol/prisoners_dilemma/old_grader/c_0_5.eval": {
     "eval_id": "ChFJjc89BWv6mvFkBu2eM5",
     "run_id": "sol_prisoners_dilemma_old_grader_c_0_5",
@@ -335,6 +335,24 @@
     "model": "openai/gpt-5.6-sol",
     "started_at": "2026-11-05T16:22:02+00:00",
     "completed_at": "2026-11-05T16:22:02+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/old_grader/c_0.eval": {
+    "eval_id": "3o3bbCRQzyC28PjrkcfJjf",
+    "run_id": "sol_prisoners_dilemma_old_grader_c_0",
+    "task": "Sol dilemma, old grader: c = 0",
+    "task_id": "sol_prisoners_dilemma_old_grader_c_0",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:22:21+00:00",
+    "completed_at": "2026-11-05T16:22:21+00:00",
     "primary_metric": {
       "name": "share",
       "value": 0.0,
@@ -521,24 +539,6 @@
       "params": {}
     }
   },
-  "sol/open_followup/judge_reply_7_resampled.eval": {
-    "eval_id": "eCyj8YqqQ9b8k7ADf63XJs",
-    "run_id": "sol_open_followup_judge_reply_7_resampled",
-    "task": "Sol open: judge_reply/7 resampled 10 times",
-    "task_id": "sol_open_followup_judge_reply_7_resampled",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:01:37+00:00",
-    "completed_at": "2026-11-05T16:01:37+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
   "sol/open_followup/confession_judge.eval": {
     "eval_id": "2uhD8qUCVEoiUiKVqW9utX",
     "run_id": "sol_open_followup_confession_judge",
@@ -551,6 +551,24 @@
     "model": "openai/gpt-5.6-sol",
     "started_at": "2026-11-05T19:51:20+00:00",
     "completed_at": "2026-11-05T19:51:20+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "sol/open_followup/judge_reply_7_resampled.eval": {
+    "eval_id": "eCyj8YqqQ9b8k7ADf63XJs",
+    "run_id": "sol_open_followup_judge_reply_7_resampled",
+    "task": "Sol open: judge_reply/7 resampled 10 times",
+    "task_id": "sol_open_followup_judge_reply_7_resampled",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:01:37+00:00",
+    "completed_at": "2026-11-05T16:01:37+00:00",
     "primary_metric": {
       "name": "share",
       "value": 1.0,
@@ -1007,24 +1025,6 @@
       "params": {}
     }
   },
-  "qwen/followup/27b/open_resample/no_mention.eval": {
-    "eval_id": "A7XaeZQKrPUCnahUmRinsM",
-    "run_id": "qwen_followup_27b_open_resample_no_mention",
-    "task": "Qwen3.8-27B open: grader does not mention the follow-up",
-    "task_id": "qwen_followup_27b_open_resample_no_mention",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-27B",
-    "started_at": "2026-11-06T05:35:31+00:00",
-    "completed_at": "2026-11-06T05:35:31+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
   "qwen/followup/27b/open_resample/exact_yes_required.eval": {
     "eval_id": "DQTjaNKAmRYvMbvn7b65tL",
     "run_id": "qwen_followup_27b_open_resample_exact_yes_required",
@@ -1037,6 +1037,24 @@
     "model": "qwen/Qwen3.8-27B",
     "started_at": "2026-11-06T05:30:40+00:00",
     "completed_at": "2026-11-06T05:30:40+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/open_resample/no_mention.eval": {
+    "eval_id": "A7XaeZQKrPUCnahUmRinsM",
+    "run_id": "qwen_followup_27b_open_resample_no_mention",
+    "task": "Qwen3.8-27B open: grader does not mention the follow-up",
+    "task_id": "qwen_followup_27b_open_resample_no_mention",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T05:35:31+00:00",
+    "completed_at": "2026-11-06T05:35:31+00:00",
     "primary_metric": {
       "name": "share",
       "value": 1.0,
