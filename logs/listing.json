@@ -1,4 +1,112 @@
 {
+  "kimi/prisoners_dilemma/pilot.eval": {
+    "eval_id": "EiWRSNfAKzDXN3ikg66j3g",
+    "run_id": "kimi_prisoners_dilemma_pilot",
+    "task": "Kimi K3.1 Pro dilemma pilot: Titanic, c = 1",
+    "task_id": "kimi_prisoners_dilemma_pilot",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "moonshotai/kimi-k3.1-pro",
+    "started_at": "2026-11-09T20:46:52+00:00",
+    "completed_at": "2026-11-09T20:46:52+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.034482758620689655,
+      "params": {}
+    }
+  },
+  "nemotron/prisoners_dilemma/pilot.eval": {
+    "eval_id": "DPbCkAVXDMtgzTDd8RS9Qi",
+    "run_id": "nemotron_prisoners_dilemma_pilot",
+    "task": "Nemotron 3.5 Super VL dilemma pilot: Titanic, c = 1",
+    "task_id": "nemotron_prisoners_dilemma_pilot",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-09T19:34:51+00:00",
+    "completed_at": "2026-11-09T19:34:51+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "nemotron/prisoners_dilemma/c_1_read_only.eval": {
+    "eval_id": "Azn6hXirZBXDeiofMToP8Q",
+    "run_id": "nemotron_prisoners_dilemma_c_1_read_only",
+    "task": "Nemotron 3.5 Super VL dilemma: c = 1, A read-only",
+    "task_id": "nemotron_prisoners_dilemma_c_1_read_only",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-09T19:45:20+00:00",
+    "completed_at": "2026-11-09T19:45:20+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "nemotron/prisoners_dilemma/c_1.eval": {
+    "eval_id": "mmVrog2woasamhSNzm7YMx",
+    "run_id": "nemotron_prisoners_dilemma_c_1",
+    "task": "Nemotron 3.5 Super VL dilemma: c = 1",
+    "task_id": "nemotron_prisoners_dilemma_c_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-09T19:45:24+00:00",
+    "completed_at": "2026-11-09T19:45:24+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "kimi/prisoners_dilemma/c_1_read_only.eval": {
+    "eval_id": "V3xHCjd79Gp7texyJQhA6b",
+    "run_id": "kimi_prisoners_dilemma_c_1_read_only",
+    "task": "Kimi K3.1 Pro dilemma: c = 1, A read-only",
+    "task_id": "kimi_prisoners_dilemma_c_1_read_only",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "moonshotai/kimi-k3.1-pro",
+    "started_at": "2026-11-09T20:44:08+00:00",
+    "completed_at": "2026-11-09T20:44:08+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "kimi/prisoners_dilemma/c_1.eval": {
+    "eval_id": "n8Jbmx669iPphVqZzu8ejo",
+    "run_id": "kimi_prisoners_dilemma_c_1",
+    "task": "Kimi K3.1 Pro dilemma: c = 1",
+    "task_id": "kimi_prisoners_dilemma_c_1",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "moonshotai/kimi-k3.1-pro",
+    "started_at": "2026-11-09T20:45:15+00:00",
+    "completed_at": "2026-11-09T20:45:15+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.12,
+      "params": {}
+    }
+  },
   "deepseek/pilot.eval": {
     "eval_id": "2LeStXENBnhj2AZZ6xrwJD",
     "run_id": "deepseek_pilot",
@@ -539,24 +647,6 @@
       "params": {}
     }
   },
-  "sol/prisoners_dilemma/old_grader/c_0_5.eval": {
-    "eval_id": "ChFJjc89BWv6mvFkBu2eM5",
-    "run_id": "sol_prisoners_dilemma_old_grader_c_0_5",
-    "task": "Sol dilemma, old grader: c = 0.5",
-    "task_id": "sol_prisoners_dilemma_old_grader_c_0_5",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-05T16:22:02+00:00",
-    "completed_at": "2026-11-05T16:22:02+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
   "sol/prisoners_dilemma/old_grader/c_1.eval": {
     "eval_id": "7vFmvMYjj9DZH48beZNCNT",
     "run_id": "sol_prisoners_dilemma_old_grader_c_1",
@@ -572,6 +662,24 @@
     "primary_metric": {
       "name": "share",
       "value": 0.038461538461538464,
+      "params": {}
+    }
+  },
+  "sol/prisoners_dilemma/old_grader/c_0_5.eval": {
+    "eval_id": "ChFJjc89BWv6mvFkBu2eM5",
+    "run_id": "sol_prisoners_dilemma_old_grader_c_0_5",
+    "task": "Sol dilemma, old grader: c = 0.5",
+    "task_id": "sol_prisoners_dilemma_old_grader_c_0_5",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-05T16:22:02+00:00",
+    "completed_at": "2026-11-05T16:22:02+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
       "params": {}
     }
   },
