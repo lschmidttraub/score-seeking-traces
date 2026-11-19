@@ -1,4 +1,598 @@
 {
+  "nemotron/btap/mask/honest_weights_random_control.eval": {
+    "eval_id": "Jz969GPoQomRtpzEJVqFtf",
+    "run_id": "btap_mask_honest_weights_random_control",
+    "task": "B-TAP MASK: honest weights random control",
+    "task_id": "btap_mask_honest_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:44+00:00",
+    "completed_at": "2026-11-19T15:56:44+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.357,
+      "params": {}
+    }
+  },
+  "nemotron/btap/mask/honest_weights_pruned.eval": {
+    "eval_id": "2hFfeCkWbr4HFcHburzSSB",
+    "run_id": "btap_mask_honest_weights_pruned",
+    "task": "B-TAP MASK: honest weights pruned",
+    "task_id": "btap_mask_honest_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:42+00:00",
+    "completed_at": "2026-11-19T15:56:42+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.391,
+      "params": {}
+    }
+  },
+  "nemotron/btap/mask/unablated.eval": {
+    "eval_id": "4dMX5H3WNP6Yheh5Puzc8G",
+    "run_id": "btap_mask_unablated",
+    "task": "B-TAP MASK: unablated",
+    "task_id": "btap_mask_unablated",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:40+00:00",
+    "completed_at": "2026-11-19T15:56:40+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.364,
+      "params": {}
+    }
+  },
+  "nemotron/btap/fresh_chat/deceptive_weights_random_control.eval": {
+    "eval_id": "NFU4tH76BbeG95ShPSn8hq",
+    "run_id": "btap_fresh_chat_deceptive_weights_random_control",
+    "task": "B-TAP fresh chat: deceptive weights random control",
+    "task_id": "btap_fresh_chat_deceptive_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:38+00:00",
+    "completed_at": "2026-11-19T15:56:38+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.029,
+      "params": {}
+    }
+  },
+  "nemotron/btap/fresh_chat/deceptive_weights_pruned.eval": {
+    "eval_id": "Br4Ph9j9wDJhCeyZ5ekqrs",
+    "run_id": "btap_fresh_chat_deceptive_weights_pruned",
+    "task": "B-TAP fresh chat: deceptive weights pruned",
+    "task_id": "btap_fresh_chat_deceptive_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:35+00:00",
+    "completed_at": "2026-11-19T15:56:35+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.024,
+      "params": {}
+    }
+  },
+  "nemotron/btap/fresh_chat/honest_weights_random_control.eval": {
+    "eval_id": "QxMpZWKwryugscTnLgtPTY",
+    "run_id": "btap_fresh_chat_honest_weights_random_control",
+    "task": "B-TAP fresh chat: honest weights random control",
+    "task_id": "btap_fresh_chat_honest_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:33+00:00",
+    "completed_at": "2026-11-19T15:56:33+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.03,
+      "params": {}
+    }
+  },
+  "nemotron/btap/fresh_chat/honest_weights_pruned.eval": {
+    "eval_id": "G89vUj4turXo4Dby9Fx6RE",
+    "run_id": "btap_fresh_chat_honest_weights_pruned",
+    "task": "B-TAP fresh chat: honest weights pruned",
+    "task_id": "btap_fresh_chat_honest_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:31+00:00",
+    "completed_at": "2026-11-19T15:56:31+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.093,
+      "params": {}
+    }
+  },
+  "nemotron/btap/fresh_chat/unablated.eval": {
+    "eval_id": "Juuah8uqxdcuwUWAkKTxiM",
+    "run_id": "btap_fresh_chat_unablated",
+    "task": "B-TAP fresh chat: unablated",
+    "task_id": "btap_fresh_chat_unablated",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:27+00:00",
+    "completed_at": "2026-11-19T15:56:27+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0255,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/open_judge_confess/deceptive_weights_random_control.eval": {
+    "eval_id": "HttgtoJfMLh3rzgeMfUYBr",
+    "run_id": "btap_newenv_open_judge_confess_deceptive_weights_random_control",
+    "task": "B-TAP newenv open judge confess: deceptive weights random control",
+    "task_id": "btap_newenv_open_judge_confess_deceptive_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:26+00:00",
+    "completed_at": "2026-11-19T15:56:26+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.6125,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/open_judge_confess/deceptive_weights_pruned.eval": {
+    "eval_id": "Wr9a4cnZCgKWaheN3aB57S",
+    "run_id": "btap_newenv_open_judge_confess_deceptive_weights_pruned",
+    "task": "B-TAP newenv open judge confess: deceptive weights pruned",
+    "task_id": "btap_newenv_open_judge_confess_deceptive_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:25+00:00",
+    "completed_at": "2026-11-19T15:56:25+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.50625,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/open_judge_confess/honest_weights_random_control.eval": {
+    "eval_id": "X4BtARynbmgDHSEJb7GwSr",
+    "run_id": "btap_newenv_open_judge_confess_honest_weights_random_control",
+    "task": "B-TAP newenv open judge confess: honest weights random control",
+    "task_id": "btap_newenv_open_judge_confess_honest_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:24+00:00",
+    "completed_at": "2026-11-19T15:56:24+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.64375,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/open_judge_confess/honest_weights_pruned.eval": {
+    "eval_id": "jHyxADaeYrcU6ZMF2Tdnoj",
+    "run_id": "btap_newenv_open_judge_confess_honest_weights_pruned",
+    "task": "B-TAP newenv open judge confess: honest weights pruned",
+    "task_id": "btap_newenv_open_judge_confess_honest_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:23+00:00",
+    "completed_at": "2026-11-19T15:56:23+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.6520833333333333,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/open_judge_confess/unablated.eval": {
+    "eval_id": "MJNRBWCQGGqJ5nf7ECpdD5",
+    "run_id": "btap_newenv_open_judge_confess_unablated",
+    "task": "B-TAP newenv open judge confess: unablated",
+    "task_id": "btap_newenv_open_judge_confess_unablated",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:22+00:00",
+    "completed_at": "2026-11-19T15:56:22+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.6520833333333333,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/one_word/deceptive_weights_random_control.eval": {
+    "eval_id": "cXmWCMfiFAQNqcceZydvJa",
+    "run_id": "btap_newenv_one_word_deceptive_weights_random_control",
+    "task": "B-TAP newenv one word: deceptive weights random control",
+    "task_id": "btap_newenv_one_word_deceptive_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:21+00:00",
+    "completed_at": "2026-11-19T15:56:21+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.8083333333333333,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/one_word/deceptive_weights_pruned.eval": {
+    "eval_id": "9KvLBep7xHsW7hbcYjLgKc",
+    "run_id": "btap_newenv_one_word_deceptive_weights_pruned",
+    "task": "B-TAP newenv one word: deceptive weights pruned",
+    "task_id": "btap_newenv_one_word_deceptive_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:20+00:00",
+    "completed_at": "2026-11-19T15:56:20+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.8041666666666667,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/one_word/honest_weights_random_control.eval": {
+    "eval_id": "9wAStZv8hQfiHVbxUNKjNy",
+    "run_id": "btap_newenv_one_word_honest_weights_random_control",
+    "task": "B-TAP newenv one word: honest weights random control",
+    "task_id": "btap_newenv_one_word_honest_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:20+00:00",
+    "completed_at": "2026-11-19T15:56:20+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.8083333333333333,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/one_word/unablated.eval": {
+    "eval_id": "FxnEBQP38qfLq5jNE9hQeo",
+    "run_id": "btap_newenv_one_word_unablated",
+    "task": "B-TAP newenv one word: unablated",
+    "task_id": "btap_newenv_one_word_unablated",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:18+00:00",
+    "completed_at": "2026-11-19T15:56:18+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.8083333333333333,
+      "params": {}
+    }
+  },
+  "nemotron/btap/new_envs/one_word/honest_weights_pruned.eval": {
+    "eval_id": "ipSYKRfkuFyhrHTUa6upSi",
+    "run_id": "btap_newenv_one_word_honest_weights_pruned",
+    "task": "B-TAP newenv one word: honest weights pruned",
+    "task_id": "btap_newenv_one_word_honest_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:19+00:00",
+    "completed_at": "2026-11-19T15:56:19+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.8083333333333333,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_no_mention/deceptive_weights_random_control.eval": {
+    "eval_id": "3KyfMRpics5MXdSq9GWLxM",
+    "run_id": "btap_open_no_mention_deceptive_weights_random_control",
+    "task": "B-TAP open no mention: deceptive weights random control",
+    "task_id": "btap_open_no_mention_deceptive_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:17+00:00",
+    "completed_at": "2026-11-19T15:56:17+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.01,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_no_mention/deceptive_weights_pruned.eval": {
+    "eval_id": "6gk6ahPr8TiNEwAE8E2nh2",
+    "run_id": "btap_open_no_mention_deceptive_weights_pruned",
+    "task": "B-TAP open no mention: deceptive weights pruned",
+    "task_id": "btap_open_no_mention_deceptive_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:16+00:00",
+    "completed_at": "2026-11-19T15:56:16+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_no_mention/honest_weights_random_control.eval": {
+    "eval_id": "5WAEqCKe9Hg7pWXRbmuHJf",
+    "run_id": "btap_open_no_mention_honest_weights_random_control",
+    "task": "B-TAP open no mention: honest weights random control",
+    "task_id": "btap_open_no_mention_honest_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:15+00:00",
+    "completed_at": "2026-11-19T15:56:15+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_no_mention/honest_weights_pruned.eval": {
+    "eval_id": "dkbDF3UYJQfQpzhMmZpTkq",
+    "run_id": "btap_open_no_mention_honest_weights_pruned",
+    "task": "B-TAP open no mention: honest weights pruned",
+    "task_id": "btap_open_no_mention_honest_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:14+00:00",
+    "completed_at": "2026-11-19T15:56:14+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.245,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_no_mention/unablated.eval": {
+    "eval_id": "aob8eCBsYf9Q4ZVGBBg5iU",
+    "run_id": "btap_open_no_mention_unablated",
+    "task": "B-TAP open no mention: unablated",
+    "task_id": "btap_open_no_mention_unablated",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:13+00:00",
+    "completed_at": "2026-11-19T15:56:13+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.005,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_judge_confess/deceptive_weights_random_control.eval": {
+    "eval_id": "U5vuE5tYywiZo8wL7pdUMb",
+    "run_id": "btap_open_judge_confess_deceptive_weights_random_control",
+    "task": "B-TAP open judge confess: deceptive weights random control",
+    "task_id": "btap_open_judge_confess_deceptive_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:12+00:00",
+    "completed_at": "2026-11-19T15:56:12+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.02,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_judge_confess/deceptive_weights_pruned.eval": {
+    "eval_id": "8mHk9npv9ZqJiKYuPVzufa",
+    "run_id": "btap_open_judge_confess_deceptive_weights_pruned",
+    "task": "B-TAP open judge confess: deceptive weights pruned",
+    "task_id": "btap_open_judge_confess_deceptive_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:11+00:00",
+    "completed_at": "2026-11-19T15:56:11+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_judge_confess/honest_weights_random_control.eval": {
+    "eval_id": "cHdiZjJD23xySPuq47bbLX",
+    "run_id": "btap_open_judge_confess_honest_weights_random_control",
+    "task": "B-TAP open judge confess: honest weights random control",
+    "task_id": "btap_open_judge_confess_honest_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:10+00:00",
+    "completed_at": "2026-11-19T15:56:10+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.02,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_judge_confess/honest_weights_pruned.eval": {
+    "eval_id": "JV6qUoKbSYdQT2qbxYnAGq",
+    "run_id": "btap_open_judge_confess_honest_weights_pruned",
+    "task": "B-TAP open judge confess: honest weights pruned",
+    "task_id": "btap_open_judge_confess_honest_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:09+00:00",
+    "completed_at": "2026-11-19T15:56:09+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.77,
+      "params": {}
+    }
+  },
+  "nemotron/btap/open_judge_confess/unablated.eval": {
+    "eval_id": "ioxuuXxd4TbGNckeyJ7yvS",
+    "run_id": "btap_open_judge_confess_unablated",
+    "task": "B-TAP open judge confess: unablated",
+    "task_id": "btap_open_judge_confess_unablated",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:08+00:00",
+    "completed_at": "2026-11-19T15:56:08+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.035,
+      "params": {}
+    }
+  },
+  "nemotron/btap/one_word/deceptive_weights_random_control.eval": {
+    "eval_id": "ivbgirJWDNrGhUCLY9V3AQ",
+    "run_id": "btap_one_word_deceptive_weights_random_control",
+    "task": "B-TAP one word: deceptive weights random control",
+    "task_id": "btap_one_word_deceptive_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:07+00:00",
+    "completed_at": "2026-11-19T15:56:07+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.4825,
+      "params": {}
+    }
+  },
+  "nemotron/btap/one_word/deceptive_weights_pruned.eval": {
+    "eval_id": "JRobtHQMnTGdVx7TGhuCMb",
+    "run_id": "btap_one_word_deceptive_weights_pruned",
+    "task": "B-TAP one word: deceptive weights pruned",
+    "task_id": "btap_one_word_deceptive_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:06+00:00",
+    "completed_at": "2026-11-19T15:56:06+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.0,
+      "params": {}
+    }
+  },
+  "nemotron/btap/one_word/honest_weights_random_control.eval": {
+    "eval_id": "WDg5KyZFGSAq9QWp6Nhsyg",
+    "run_id": "btap_one_word_honest_weights_random_control",
+    "task": "B-TAP one word: honest weights random control",
+    "task_id": "btap_one_word_honest_weights_random_control",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:05+00:00",
+    "completed_at": "2026-11-19T15:56:05+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.4675,
+      "params": {}
+    }
+  },
+  "nemotron/btap/one_word/honest_weights_pruned.eval": {
+    "eval_id": "3XARDbC6Dz4NPKCZaM7Fdr",
+    "run_id": "btap_one_word_honest_weights_pruned",
+    "task": "B-TAP one word: honest weights pruned",
+    "task_id": "btap_one_word_honest_weights_pruned",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:05+00:00",
+    "completed_at": "2026-11-19T15:56:05+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "nemotron/btap/one_word/unablated.eval": {
+    "eval_id": "H9knKviTCASitPpmRCcieP",
+    "run_id": "btap_one_word_unablated",
+    "task": "B-TAP one word: unablated",
+    "task_id": "btap_one_word_unablated",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-19T15:56:03+00:00",
+    "completed_at": "2026-11-19T15:56:03+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.5025,
+      "params": {}
+    }
+  },
   "nemotron/btap/side_by_side/5_full_rollouts.eval": {
     "eval_id": "EFQHhuUwSUwxt9Z5CpRNck",
     "run_id": "btap_side_by_side_5_full_rollouts",
@@ -22,6 +616,24 @@
     "run_id": "btap_side_by_side_4_fresh_chat_confession_question",
     "task": "B-TAP side by side: fresh chat, would you confess?",
     "task_id": "btap_side_by_side_4_fresh_chat_confession_question",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "nvidia/nemotron-3.5-super-vl",
+    "started_at": "2026-11-18T16:03:36+00:00",
+    "completed_at": "2026-11-18T16:03:36+00:00",
+    "primary_metric": {
+      "name": "count",
+      "value": 3,
+      "params": {}
+    }
+  },
+  "nemotron/btap/side_by_side/3_open_followup_no_incentive.eval": {
+    "eval_id": "SnyASeUuUYvRott7RKbgrB",
+    "run_id": "btap_side_by_side_3_open_followup_no_incentive",
+    "task": "B-TAP side by side: open follow-up, nothing at stake",
+    "task_id": "btap_side_by_side_3_open_followup_no_incentive",
     "task_version": 0,
     "version": 2,
     "status": "success",
@@ -68,24 +680,6 @@
     "primary_metric": {
       "name": "count",
       "value": 4,
-      "params": {}
-    }
-  },
-  "nemotron/btap/side_by_side/3_open_followup_no_incentive.eval": {
-    "eval_id": "SnyASeUuUYvRott7RKbgrB",
-    "run_id": "btap_side_by_side_3_open_followup_no_incentive",
-    "task": "B-TAP side by side: open follow-up, nothing at stake",
-    "task_id": "btap_side_by_side_3_open_followup_no_incentive",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-18T16:03:36+00:00",
-    "completed_at": "2026-11-18T16:03:36+00:00",
-    "primary_metric": {
-      "name": "count",
-      "value": 3,
       "params": {}
     }
   },
@@ -176,330 +770,6 @@
     "primary_metric": {
       "name": "share",
       "value": 1.0,
-      "params": {}
-    }
-  },
-  "nemotron/btap/fresh_chat/honest_weights_random_control.eval": {
-    "eval_id": "LYnuYVhT3MVvTA2EBU66Js",
-    "run_id": "btap_fresh_chat_honest_weights_random_control",
-    "task": "B-TAP fresh chat: honest weights random control",
-    "task_id": "btap_fresh_chat_honest_weights_random_control",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:51+00:00",
-    "completed_at": "2026-11-17T13:21:51+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.03,
-      "params": {}
-    }
-  },
-  "nemotron/btap/fresh_chat/honest_weights_pruned.eval": {
-    "eval_id": "B5mxqFk7HL2poLze3HNrqq",
-    "run_id": "btap_fresh_chat_honest_weights_pruned",
-    "task": "B-TAP fresh chat: honest weights pruned",
-    "task_id": "btap_fresh_chat_honest_weights_pruned",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:49+00:00",
-    "completed_at": "2026-11-17T13:21:49+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.093,
-      "params": {}
-    }
-  },
-  "nemotron/btap/fresh_chat/unablated.eval": {
-    "eval_id": "TyfATZtg2jUQDxeqNmxbQb",
-    "run_id": "btap_fresh_chat_unablated",
-    "task": "B-TAP fresh chat: unablated",
-    "task_id": "btap_fresh_chat_unablated",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:46+00:00",
-    "completed_at": "2026-11-17T13:21:46+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0255,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_no_mention/deceptive_weights_random_control.eval": {
-    "eval_id": "cTk8WLvRjHUmB6Ti6ZWcc3",
-    "run_id": "btap_open_no_mention_deceptive_weights_random_control",
-    "task": "B-TAP open no mention: deceptive weights random control",
-    "task_id": "btap_open_no_mention_deceptive_weights_random_control",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:45+00:00",
-    "completed_at": "2026-11-17T13:21:45+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.01,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_no_mention/deceptive_weights_pruned.eval": {
-    "eval_id": "jkao66xra3hRSDqvpfzibE",
-    "run_id": "btap_open_no_mention_deceptive_weights_pruned",
-    "task": "B-TAP open no mention: deceptive weights pruned",
-    "task_id": "btap_open_no_mention_deceptive_weights_pruned",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:44+00:00",
-    "completed_at": "2026-11-17T13:21:44+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_no_mention/honest_weights_random_control.eval": {
-    "eval_id": "L7PP5hqUmeY4rJbUQg7xah",
-    "run_id": "btap_open_no_mention_honest_weights_random_control",
-    "task": "B-TAP open no mention: honest weights random control",
-    "task_id": "btap_open_no_mention_honest_weights_random_control",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:43+00:00",
-    "completed_at": "2026-11-17T13:21:43+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_no_mention/honest_weights_pruned.eval": {
-    "eval_id": "kpRnPB9LTJXVGXpoDs4aFm",
-    "run_id": "btap_open_no_mention_honest_weights_pruned",
-    "task": "B-TAP open no mention: honest weights pruned",
-    "task_id": "btap_open_no_mention_honest_weights_pruned",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:42+00:00",
-    "completed_at": "2026-11-17T13:21:42+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.245,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_no_mention/unablated.eval": {
-    "eval_id": "3UpSYZ8pQUnVskbaEFkGZz",
-    "run_id": "btap_open_no_mention_unablated",
-    "task": "B-TAP open no mention: unablated",
-    "task_id": "btap_open_no_mention_unablated",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:41+00:00",
-    "completed_at": "2026-11-17T13:21:41+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.005,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_judge_confess/deceptive_weights_random_control.eval": {
-    "eval_id": "khhwJA5nNHpX5tgpAXftFy",
-    "run_id": "btap_open_judge_confess_deceptive_weights_random_control",
-    "task": "B-TAP open judge confess: deceptive weights random control",
-    "task_id": "btap_open_judge_confess_deceptive_weights_random_control",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:40+00:00",
-    "completed_at": "2026-11-17T13:21:40+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.02,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_judge_confess/deceptive_weights_pruned.eval": {
-    "eval_id": "PEG7kRKkiGXaPkhfBNMWsH",
-    "run_id": "btap_open_judge_confess_deceptive_weights_pruned",
-    "task": "B-TAP open judge confess: deceptive weights pruned",
-    "task_id": "btap_open_judge_confess_deceptive_weights_pruned",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:39+00:00",
-    "completed_at": "2026-11-17T13:21:39+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_judge_confess/honest_weights_random_control.eval": {
-    "eval_id": "SwgPEaSALXhn6r26TAsrPJ",
-    "run_id": "btap_open_judge_confess_honest_weights_random_control",
-    "task": "B-TAP open judge confess: honest weights random control",
-    "task_id": "btap_open_judge_confess_honest_weights_random_control",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:38+00:00",
-    "completed_at": "2026-11-17T13:21:38+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.02,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_judge_confess/honest_weights_pruned.eval": {
-    "eval_id": "LSyCwgSsmspkWAwW884hpM",
-    "run_id": "btap_open_judge_confess_honest_weights_pruned",
-    "task": "B-TAP open judge confess: honest weights pruned",
-    "task_id": "btap_open_judge_confess_honest_weights_pruned",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:37+00:00",
-    "completed_at": "2026-11-17T13:21:37+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.77,
-      "params": {}
-    }
-  },
-  "nemotron/btap/open_judge_confess/unablated.eval": {
-    "eval_id": "Dg9j9HRrZXYyKFQ3JgU69a",
-    "run_id": "btap_open_judge_confess_unablated",
-    "task": "B-TAP open judge confess: unablated",
-    "task_id": "btap_open_judge_confess_unablated",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:35+00:00",
-    "completed_at": "2026-11-17T13:21:35+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.035,
-      "params": {}
-    }
-  },
-  "nemotron/btap/one_word/deceptive_weights_random_control.eval": {
-    "eval_id": "nkVk653LBVdo5UmG6pjWBe",
-    "run_id": "btap_one_word_deceptive_weights_random_control",
-    "task": "B-TAP one word: deceptive weights random control",
-    "task_id": "btap_one_word_deceptive_weights_random_control",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:34+00:00",
-    "completed_at": "2026-11-17T13:21:34+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.4825,
-      "params": {}
-    }
-  },
-  "nemotron/btap/one_word/deceptive_weights_pruned.eval": {
-    "eval_id": "HE954KcSagSfMbNinV8y28",
-    "run_id": "btap_one_word_deceptive_weights_pruned",
-    "task": "B-TAP one word: deceptive weights pruned",
-    "task_id": "btap_one_word_deceptive_weights_pruned",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:34+00:00",
-    "completed_at": "2026-11-17T13:21:34+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.0,
-      "params": {}
-    }
-  },
-  "nemotron/btap/one_word/honest_weights_random_control.eval": {
-    "eval_id": "bK2iooUhfjaBLGxh35daCs",
-    "run_id": "btap_one_word_honest_weights_random_control",
-    "task": "B-TAP one word: honest weights random control",
-    "task_id": "btap_one_word_honest_weights_random_control",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:33+00:00",
-    "completed_at": "2026-11-17T13:21:33+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.4675,
-      "params": {}
-    }
-  },
-  "nemotron/btap/one_word/honest_weights_pruned.eval": {
-    "eval_id": "kGbmGgfFnUdCXHNDYcPCUw",
-    "run_id": "btap_one_word_honest_weights_pruned",
-    "task": "B-TAP one word: honest weights pruned",
-    "task_id": "btap_one_word_honest_weights_pruned",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:32+00:00",
-    "completed_at": "2026-11-17T13:21:32+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
-  "nemotron/btap/one_word/unablated.eval": {
-    "eval_id": "M7yVc2Fsaiec87EedKUwJF",
-    "run_id": "btap_one_word_unablated",
-    "task": "B-TAP one word: unablated",
-    "task_id": "btap_one_word_unablated",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "nvidia/nemotron-3.5-super-vl",
-    "started_at": "2026-11-17T13:21:31+00:00",
-    "completed_at": "2026-11-17T13:21:31+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.5025,
       "params": {}
     }
   },
@@ -2393,24 +2663,6 @@
       "params": {}
     }
   },
-  "sol/sandbagging/original/reward_for_failing_scale_line.eval": {
-    "eval_id": "FChtMhSgzagPEWXFDTnuWz",
-    "run_id": "sol_sandbagging_original_reward_for_failing_scale_line",
-    "task": "Sol sandbagging, original task: reward for failing, with scale line",
-    "task_id": "sol_sandbagging_original_reward_for_failing_scale_line",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "openai/gpt-5.6-sol",
-    "started_at": "2026-11-07T15:20:43+00:00",
-    "completed_at": "2026-11-07T15:20:43+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 0.45,
-      "params": {}
-    }
-  },
   "sol/sandbagging/pilot/grader_sentence.eval": {
     "eval_id": "8EbBFkBEdHTKoGPHkYgTiL",
     "run_id": "sol_sandbagging_pilot_grader_sentence",
@@ -2426,6 +2678,24 @@
     "primary_metric": {
       "name": "share",
       "value": 0.0,
+      "params": {}
+    }
+  },
+  "sol/sandbagging/original/reward_for_failing_scale_line.eval": {
+    "eval_id": "FChtMhSgzagPEWXFDTnuWz",
+    "run_id": "sol_sandbagging_original_reward_for_failing_scale_line",
+    "task": "Sol sandbagging, original task: reward for failing, with scale line",
+    "task_id": "sol_sandbagging_original_reward_for_failing_scale_line",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "openai/gpt-5.6-sol",
+    "started_at": "2026-11-07T15:20:43+00:00",
+    "completed_at": "2026-11-07T15:20:43+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 0.45,
       "params": {}
     }
   },
@@ -3527,24 +3797,6 @@
       "params": {}
     }
   },
-  "qwen/followup/27b/open_resample/exact_yes_required.eval": {
-    "eval_id": "DQTjaNKAmRYvMbvn7b65tL",
-    "run_id": "qwen_followup_27b_open_resample_exact_yes_required",
-    "task": "Qwen3.8-27B open: exact Yes required",
-    "task_id": "qwen_followup_27b_open_resample_exact_yes_required",
-    "task_version": 0,
-    "version": 2,
-    "status": "success",
-    "invalidated": false,
-    "model": "qwen/Qwen3.8-27B",
-    "started_at": "2026-11-06T05:30:40+00:00",
-    "completed_at": "2026-11-06T05:30:40+00:00",
-    "primary_metric": {
-      "name": "share",
-      "value": 1.0,
-      "params": {}
-    }
-  },
   "qwen/followup/27b/open_resample/no_mention.eval": {
     "eval_id": "A7XaeZQKrPUCnahUmRinsM",
     "run_id": "qwen_followup_27b_open_resample_no_mention",
@@ -3557,6 +3809,24 @@
     "model": "qwen/Qwen3.8-27B",
     "started_at": "2026-11-06T05:35:31+00:00",
     "completed_at": "2026-11-06T05:35:31+00:00",
+    "primary_metric": {
+      "name": "share",
+      "value": 1.0,
+      "params": {}
+    }
+  },
+  "qwen/followup/27b/open_resample/exact_yes_required.eval": {
+    "eval_id": "DQTjaNKAmRYvMbvn7b65tL",
+    "run_id": "qwen_followup_27b_open_resample_exact_yes_required",
+    "task": "Qwen3.8-27B open: exact Yes required",
+    "task_id": "qwen_followup_27b_open_resample_exact_yes_required",
+    "task_version": 0,
+    "version": 2,
+    "status": "success",
+    "invalidated": false,
+    "model": "qwen/Qwen3.8-27B",
+    "started_at": "2026-11-06T05:30:40+00:00",
+    "completed_at": "2026-11-06T05:30:40+00:00",
     "primary_metric": {
       "name": "share",
       "value": 1.0,
